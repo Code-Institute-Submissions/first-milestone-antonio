@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker:100,200,300,400,500,600,700|Indie+Flower:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+/* header*/
+
+.logo-container {
+    height: 100%;
+    background: url('/images/logo.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+/* Navbar */
+
+.navbar {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.82);
+    border: 0;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border: 0;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    color: white;
+}
+
+.navbar .navbar-brand:hover {
+    color: white;
+}
+
+.navbar-default .navbar-nav a {
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+
+.menu-cascade {
+    background-color: rgba(0, 0, 0, 0.82);
+}
+
+.menu-cascade>li>a {
+    color: #777;
+}
+
+
+
+/* Jumbotron */
+
+.jumbotron {
+    background: rgba(0, 0, 0, .72);
+    color: white;
+    border: 3px;
+}
+
+.jumbotron h1 {
+    font-family: "Permanent Marker", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    text-shadow: -1px 0 #0c4605, 0 1px #0c4605, 1px 0 #0c4605, 0 -1px #0c4605;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.jumbotron .lead {
+    color: #ccc9c9;
+    margin: 25px 0;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+
+/*.............Social Buttons*/
+
+.social-navbar:after {
+    float: left;
+}
+
+.social-links {
+    padding: 10px;
+    align-items: center;
+    margin: 0;
+    float: right;
+}
+
+@media(max-width:768px) {
+    .social-links {
+        padding: 10px;
+        align-items: center;
+        margin: 0;
+        float: left;
+    }
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+.social-links::after {
+    float: left;
+}
+
+
+.social-links {
+    padding: 10px;
+    align-items: center;
+    margin: 0;
+    float: right;
+}
+
+.footer-social-links {
+    padding: 10px;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+}
+
+.footer-social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.footer-social-links li a i:hover {
+    background: #e84610;
+}
+
+
+
+/*................................Special Paddings/Margins/Text*/
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.raw-section {
+    margin-left: 15;
+    margin-right: 15;
+}
+
+.row-nav {
+    margin: 0;
+}
+
+.row-table {
+    display: table;
+}
+
+.history-heading,
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.container-fluid-contact {
+    padding: 0;
+}
+
+.page-header {
+    padding-bottom: 25px;
+    border:none;
+}
+
+.text-centered {
+    text-align: center;
+}
+
+.section-header {}
+
+/*................................Footer*/
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+footer .cv-pdf i {
+    color: #fafafa;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+footer .cv-pdf i:hover {
+    color: #e84610;
+
+}
+
+
+#footer-details {
+    margin: 20px;
+}
+
+.footer-container-fluid {
+    padding: 25px;
+    margin: 0;
+    text-align: center;
+}
+
+.footer-text {
+    display: inherit;
+}
+
+.footer-brand {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #dadad3;
+    font-size: 36;
+}
+
+.footer-brand:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-brand a {
+    font-weight: bold;
+    display: block;
+
+}
+
+.footer-brand>.active>a,
+.footer-brand>.active>a:focus,
+.footer-brand>.active>a:hover {
+    color: white;
+    background: transparent;
+}
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+}
+
+/* Containers */
+
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: white;
+}
+
+
+/* Quotes */
+
+.img-circle {
+    border-radius: 50%;
+}
+.media{
+    padding-bottom: 10px;
+}
+
+.media-body {
+    vertical-align: middle;
+    font-family: "Indie Flower", sans-serif;
+    font-weight: bold;
+
+}
+
+.quotes {
+    margin-bottom: 25px;
+}
+
+blockquote.quote {
+    border-left: 0;
+}
+
+
+/*.........................................................IMG*/
+
+.thumb-img {}
+
+
+
+/*.....................................................Contact Form*/
+
+.contact-heading{
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        margin-top: 25px;
+        margin-bottom: 20px;
+}
+
+.center-form{
+    padding-top: 10px;
+    margin: 0 auto;
+max-width: 70%;
+}
+
+button[type="submit"]{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #e84610;
+    color: #fafafa;
+    
+}
+
