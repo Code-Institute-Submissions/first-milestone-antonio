@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1">
+    <title>Augello Photoworld</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Permanent+Marker" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/main.css" type="text/css">
+</head>
+
+<body>
+
+    <!--Header-->
+    <header>
+        <!--Nav-->
+
+    <nav class="navbar navbar-default">
+      <!--container fluids-->
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+          <a class="navbar-brand" href="index.html">Augello PhotoWorld</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+            <li><a href="gallery.html">Photobook</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+              <ul class="dropdown-menu menu-cascade">
+                <li><a href="services.html">Services and Prices</a></li>
+                <li><a href="#">Info</a></li>
+                <li><a href="delivery.html">Delivery & Payment Info</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <!--Socials Nav-->
+          <div class="social-navbar">
+            <ul class="list-inline social-links">
+              <li><a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a target="_blank" href="#"><i class="fab fa-pinterest"></i></a></li>
+              <li><a target="_blank" href="#"><i class="fab fa-instagram"></i></a></li>
+              <li><a target="_blank" href="#"> <i class="fab fa-youtube"></i></a></li>
+            </ul>
+          </div>
+          <!--/.Socials Nav-->
+        </div>
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+        <!-- .Nav-->
+    </header>
+    <!--/.Header-->
+
+    <!--Callout-->
+    <div class="container-fluid logo-container">
+        <div class="opaque-overlay">&nbsp;</div>
+        <!-- Callout -->
+        <div class="row callout-row">
+            <div class="col-xs-12">
+                <section class="callout jumbotron text-center">
+                    <h1>Photography for me is not looking, it is feeling.</h1>
+                    <hr class='block-divider block-divider--orange'>
+                    <p class="lead">Sign up today to be always update on my best offers.
+                        <p><button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#signUpModal'>Sign Up!</button></p>
+                </section>
+            </div>
+        </div>
+    </div>
+    <!-- /.callout -->
+
+
+    <section>
+        <div class="container-fluid ">
+            <div class="row">
+
+                <!--Services and Prices-->
+                <div class="col-xs-12 col-md-6 col-md-push-6 padding-services">
+                    <div>
+                        <h2 class="uppercase title-header">Let's have a look to our services and prices as listed:</h2>
+                    </div>
+                    <div class="section-table">
+                        <table class="table table-hover table-services">
+                            <thead>
+                                <tr>
+                                    <th>Sevice</th>
+                                    <th>Price <span class="euro-symbol">&#8364;</span></th>
+                                    <th>Reference number</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Outdoor Presets</td>
+                                    <td>70<span class="euro-symbol">&#8364;</span></td>
+                                    <td>#1</td>
+                                </tr>
+                                <tr>
+                                    <td>Indoor</td>
+                                    <td>50<span class="euro-symbol">&#8364;</span></td>
+                                    <td>#2</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Indoor Portrait</td>
+                                    <td>35<span class="euro-symbol">&#8364;</span></td>
+                                    <td>#4</td>
+                                </tr>
+                                <td>Outdoor Portrait</td>
+                                <td>55<span class="euro-symbol">&#8364;</span></td>
+                                <td>#3</td>
+                                </tr>
+                                <tr>
+                                    <td>Family Portrait</td>
+                                    <td>50<span class="euro-symbol">&#8364;</span></td>
+                                    <td>#5</td>
+                                </tr>
+                                <tr>
+                                    <td>Party</td>
+                                    <td>400<span class="euro-symbol">&#8364;</span></td>
+                                    <td>#6</td>
+                                </tr>
+                                <tr class="active">
+                                    <td><a href="#basicpackage" class="basicpackage-text">Basic Package*</a></td>
+                                    <td>129<span class="euro-symbol">&#8364;</span></td>
+                                    <td>#7</td>
+                                </tr>
+                                <tr class="success">
+                                    <td><a href="#goldpackage" class="goldpackage-text"> Gold Package*</a></td>
+                                    <td>199<span class="euro-symbol">&#8364;</span></td>
+                                    <td>#8</td>
+
+                                </tr>
+                                <tr class="info">
+                                    <td><a href="#diamondpackage" class="diamondpackage-text">Diamond Package*</a></td>
+                                    <td>299<span class="euro-symbol">&#8364;</span></td>
+                                    <td>#9</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!--/.Services and Prices-->
+
+
+                <!--left side price info-->
+                <div class="col-xs-12 col-md-6 col-md-pull-6 padding-services-top">
+
+                    <div>
+                        <h2 class="uppercase title-header">Good to know</h2>
+                        <p>All the prices listed are referred to a session of shooting of 1 hour and a selection of 1 picture with full service as professional postproduction and printing on 10cm x 15cm standard formats (except for our packages) and the
+                            digital copy of the selected pictures.</p>
+                        <p>For every picture more taht you would like to print I will charge 10<span class="euro-symbol">&#8364;</span> more for the standards formats of 10cm x 15cm. You can otherwise choice between different size of printing.</p>
+                        <h4 class="h4-services">It is possible to print posters and bigger printing formats as following:</h4>
+                        </p>
+                    </div>
+                    <div>
+                        <table class="table table-bordered table-size">
+                            <thead>
+                                <tr>
+                                    <th>Size</th>
+                                    <th>Price <span class="euro-symbol">&#8364;</span></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>40cm x 30cm</td>
+                                    <td>9,95<span class="euro-symbol">&#8364;</span></td>
+                                </tr>
+                                <tr>
+                                    <td>60cm x 40cm</td>
+                                    <td>16,95<span class="euro-symbol">&#8364;</span></td>
+                                </tr>
+                                <tr>
+                                    <td>76cm x 50cm</td>
+                                    <td>19,95<span class="euro-symbol">&#8364;</span></td>
+                                </tr>
+                                <tr>
+                                    <td>114cm x 76cm</td>
+                                    <td>34,95<span class="euro-symbol">&#8364;</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="small">N.B.: The price listed will be charged to the price of the service that you have chosen. </p>
+
+                    </div>
+
+                </div>
+                <!--/.left side price info-->
+            </div>
+        </div>
+        <!--Special Package Section-->
+        <div class="container-fluid bottom-package">
+            <div class=" text-centered">
+                <h2 class="uppercase padding-services">Our special packages</h2>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+                <div class="panel panel-default">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading-active">
+                        <div id="basicpackage" class="panel-heading text-centered panel-heading-text uppercase"><i class="fas fa-shopping-basket fa-icon-sell"></i> Basic Package</div>
+                    </div>
+
+                    <!-- List group -->
+                    <ul class="list-group">
+                        <li class="list-group-item text-centered">Travel Not Covered </li>
+                        <li class="list-group-item text-centered">Half Day Coverage</li>
+                        <li class="list-group-item text-centered">USB Box</li>
+                        <li class="list-group-item text-centered">5x 10cm x 15cm Prints</li>
+                        <li class="list-group-item text-centered">Additional Hours <span class="euro-symbol">&#8364;</span>50 per hour</li>
+                        <li class="list-group-item text-centered">Up to 200 Images</li>
+                        <li class="list-group-item text-centered">Free Delivery</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+                <div class="panel panel-default">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading-success">
+                        <div id="goldpackage" class="panel-heading  text-centered panel-heading-text uppercase"><i class="fas fa-coins fa-icon-sell"></i>Gold Package</div>
+                    </div>
+
+
+                    <!-- List group -->
+                    <ul class="list-group">
+                        <li class="list-group-item text-centered">Travel Not Covered </li>
+                        <li class="list-group-item text-centered">10:00 am to 05:00 pm Coverage</li>
+                        <li class="list-group-item text-centered">USB Box</li>
+                        <li class="list-group-item text-centered">15x 10cm x 15cm Prints</li>
+                        <li class="list-group-item text-centered">1x Canvas 40cm x 30cm </li>
+                        <li class="list-group-item text-centered">Up to 400 Images</li>
+                        <li class="list-group-item text-centered">Free Delivery</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+                <div class="panel panel-default">
+                    <!-- Default panel contents -->
+                    <div class=" panel-heading-info">
+                        <div id="diamondpackage" class="panel-heading text-centered panel-heading-text uppercase"><i class="fas fa-gem fa-icon-sell"></i>Diamond Package</div>
+                    </div>
+
+                    <!-- List group -->
+                    <ul class="list-group">
+                        <li class="list-group-item text-centered">Travel Not Covered </li>
+                        <li class="list-group-item text-centered">09:00 am to 06:00 pm Coverage</li>
+                        <li class="list-group-item text-centered">USB Box + 50 10cm x 15cm Prints</li>
+                        <li class="list-group-item text-centered">2x A4 Framed Pictures</li>
+                        <li class="list-group-item text-centered">3x Canvas 40cm x 30cm </li>
+                        <li class="list-group-item text-centered">Up to 600 Images</li>
+                        <li class="list-group-item text-centered">Free Delivery</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--/.Special Package Section-->
+    </section>
+
+
+
+
+    <!--Footer-->
+    <footer class="container-fluid footer-container-fluid">
+        <div id="footer-details" class="row">
+
+            <div class="list-inline footer-social-links">
+                <ul class="list-inline footer-social-links">
+                    <li><a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a target="_blank" href="#"><i class="fab fa-pinterest"></i></a></li>
+                    <li><a target="_blank" href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a target="_blank" href="#"> <i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+
+            <a class="footer-brand hvr-float-shadow" href="index.html">
+                <p class="footer-text">Augello PhotoWorld</p>
+            </a>
+
+            <p class="footer-text">Copiright <i class="fa fa-copyright" aria-hidden="true"></i> Antonio Augello Photographer.</p>
+
+            <p class="footer-text"> Web Site developer as first milestone project for CodeInstitute.. </p>
+        </div>
+    </footer>
+    <!--/.Footer-->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Sign Up to receive my best offers!</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email*" required>
+                            <p class="help-block">We'll never share your email address with anyone</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password*" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="passwordRepeat">Repeat Password</label>
+                            <input type="password" class="form-control" id="passwordRepeat" placeholder="Repeat Your Password*" required>
+                        </div>
+                        <button type="submit" class="btn btn-success">Sign Up!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.Modal -->
+
+
+    <!--script-->
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!--Script mod-->
+    <script>
+        $(document).ready(function() {
+            $('body,html').animate({ scrollTop: 450 }, 800);
+        });
+    </script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+
+</html>

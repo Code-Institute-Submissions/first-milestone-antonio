@@ -2,8 +2,17 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    margin: 0;
+    margin: auto;
 }
+
+.row {
+    margin: 0px;
+}
+
+p {
+        padding: 0px 20px;
+}
+
 
 /* header*/
 
@@ -85,7 +94,7 @@ body {
 
 
 
-/* Jumbotron */
+/*................................................Jumbotron */
 
 .jumbotron {
     background: rgba(0, 0, 0, .72);
@@ -103,6 +112,20 @@ body {
     color: white;
 }
 
+@media (max-width:768px) {
+    .jumbotron h1 {
+        font-family: "Permanent Marker", sans-serif;
+        font-weight: 100;
+        font-size: 36px;
+        text-shadow: -1px 0 #0c4605, 0 1px #0c4605, 1px 0 #0c4605, 0 -1px #0c4605;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        color: white;
+    }
+}
+
+
+
 .jumbotron .lead {
     color: #ccc9c9;
     margin: 25px 0;
@@ -112,6 +135,18 @@ body {
     font-size: 60%;
     font-style: italic;
     color: #d0d0d0;
+}
+
+.callout-row {
+    margin-top: 70px;
+}
+
+@media(min-width:992px) {
+    .callout-row {
+        max-width: 75%;
+        margin-top: 70px;
+
+    }
 }
 
 
@@ -162,15 +197,8 @@ body {
 }
 
 
-.social-links {
-    padding: 10px;
-    align-items: center;
-    margin: 0;
-    float: right;
-}
-
 .footer-social-links {
-    padding: 10px;
+    padding: 5px;
     align-items: center;
     margin: 0;
     text-align: center;
@@ -207,6 +235,10 @@ h4 {
     margin: 0;
 }
 
+.container {
+    width: 100%;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -222,8 +254,8 @@ h4 {
 }
 
 .raw-section {
-    margin-left: 15;
-    margin-right: 15;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .row-nav {
@@ -248,14 +280,34 @@ h4 {
 
 .page-header {
     padding-bottom: 25px;
-    border:none;
+    border: none;
 }
 
 .text-centered {
     text-align: center;
 }
 
-.section-header {}
+.euro-symbol {
+    span {
+        content: "\20AC";
+    }
+}
+
+.basicpackage-text:hover {
+    text-decoration: none;
+}
+
+.goldpackage-text:hover {
+    text-decoration: none;
+}
+
+.diamondpackage-text:hover {
+    text-decoration: none;
+}
+
+.dispatch-container-fluid {
+    margin-bottom: 20px;
+}
 
 /*................................Footer*/
 
@@ -266,26 +318,13 @@ footer {
     margin: 0;
 }
 
-footer .cv-pdf i {
-    color: #fafafa;
-    text-align: center;
-    font-size: 18px;
-    padding-left: 5px;
-}
-
-footer .cv-pdf i:hover {
-    color: #e84610;
-
-}
-
-
 #footer-details {
     margin: 20px;
 }
 
 .footer-container-fluid {
-    padding: 25px;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     text-align: center;
 }
 
@@ -298,7 +337,7 @@ footer .cv-pdf i:hover {
     text-decoration: none;
     text-transform: uppercase;
     color: #dadad3;
-    font-size: 36;
+    font-size: 36px;
 }
 
 .footer-brand:hover {
@@ -319,7 +358,7 @@ footer .cv-pdf i:hover {
     background: transparent;
 }
 
-/* Buttons */
+/* .................................................Buttons */
 
 .btn--cta {
     font-weight: bold;
@@ -355,14 +394,15 @@ footer .cv-pdf i:hover {
 .img-circle {
     border-radius: 50%;
 }
-.media{
+
+.media {
     padding-bottom: 10px;
 }
 
 .media-body {
     vertical-align: middle;
-    font-family: "Indie Flower", sans-serif;
-    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
 
 }
 
@@ -375,32 +415,420 @@ blockquote.quote {
 }
 
 
-/*.........................................................IMG*/
-
-.thumb-img {}
-
-
 
 /*.....................................................Contact Form*/
 
-.contact-heading{
-        font-family: "Roboto", sans-serif;
-        font-weight: 300;
-        margin-top: 25px;
-        margin-bottom: 20px;
+.contact-heading {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 20px;
 }
 
-.center-form{
+.center-form {
     padding-top: 10px;
     margin: 0 auto;
-max-width: 70%;
+    max-width: 80%;
 }
 
-button[type="submit"]{
+button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     background-color: #e84610;
     color: #fafafa;
-    
+
 }
 
+.form-control {
+    margin-bottom: 5px;
+}
+
+/*.....................................................Left Aside Bar*/
+
+.contact-items-body {
+    padding-top: 25px;
+    padding: 5px;
+}
+
+@media(max-width:500px) {
+    .contact-phone-square,
+    .contact-email-square {
+        min-width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+.contact-elements {
+    text-align: center;
+}
+
+
+.contact-phone-square,
+.contact-email-square {
+    max-width: 48%;
+    background-color: #525252;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 5px;
+    margin: 3px;
+    color: white;
+}
+
+
+.contact-phone-square:hover {
+    background-color: #525252;
+    color: white;
+}
+
+.contact-email-square:hover {
+    background-color: #525252;
+    color: white;
+}
+
+.contact-element-icon {
+    text-transform: uppercase;
+    color: #dadad3;
+    font-size: 36px;
+}
+
+.contact-element-icon:hover {
+    color: white;
+}
+
+.contact-element-icon a {
+    font-weight: bold;
+}
+
+.contact-element-icon>.active>a,
+.contact-element-icon>.active>a:focus,
+.contact-element-icon>.active>a:hover {
+    color: white;
+    background: transparent;
+}
+
+
+.contact-body-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    margin: 40px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.contact-form-input {
+    margin-bottom: 5px;
+}
+
+
+/*.....................................................Services and Prices Section*/
+
+.table-services {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.padding-services {
+    padding: 30px;
+}
+
+.padding-services-top {
+    padding: 30px;
+}
+
+@media(max-width:992px) {
+    .padding-services-top {
+        padding: 0px 30px 30px 30px;
+    }
+}
+
+.title-header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.table-size {
+    margin-top: 20px;
+}
+
+.h4-services {
+    margin: 15px 15px 15px 0px;
+}
+
+.panel-default>.panel-heading {
+    background-color: transparent;
+
+}
+
+.panel-heading-active {
+    background: #f5f5f5;
+}
+
+.panel-heading-active {
+    background: #f5f5f5;
+}
+
+
+.panel-heading-success {
+    background: #dff0d8;
+}
+
+
+.panel-heading-info {
+    background: #d9edf7;
+}
+
+.fa-icon-sell {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.panel-heading-text {
+    font-size: 18px;
+}
+
+.bottom-package {
+    border-bottom-width: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+/*.....................................................Gallery*/
+
+.gallery {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding: 15px;
+}
+
+@media(max-width:992px) {
+    .gallery {
+        padding: 0px;
+    }
+}
+
+.img-c {
+    width: 100%;
+    height: 300px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin: 4px;
+}
+
+
+.img-w {
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    transition: transform ease-in-out 300ms;
+    margin: 4px;
+
+}
+
+.img-w img {
+    display: none;
+}
+
+.img-c {
+    transition: width ease 400ms, height ease 350ms, left cubic-bezier(0.4, 0, 0.2, 1) 420ms, top cubic-bezier(0.4, 0, 0.2, 1) 420ms;
+}
+
+.img-c:hover .img-w {
+    transform: scale(1.08);
+    transition: transform cubic-bezier(0.4, 0, 0.2, 1) 450ms;
+}
+
+.img-c.active {
+    width: 95% !important;
+    height: 95% !important;
+    position: fixed;
+    z-index: 2;
+}
+
+@media(max-width:768px) {
+    .img-c.active {
+        display: none;
+    }
+}
+
+@media(max-width:768px) {
+.img-c:hover .img-w:hover{
+          transition:none !important;
+    }
+}
+
+.img-c.postactive {
+    position: absolute;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.img-c.active.positioned {
+    left: 0 !important;
+    top: 0 !important;
+    transition-delay: 50ms;
+}
+
+@media (max-width: 1026px) {
+    .gallery-hidden {
+        display: none;
+    }
+}
+
+.section-gallery {
+    padding: 3px;
+}
+
+@media(max-width:992px) {
+    .section-gallery {
+        padding: 0px;
+    }
+}
+
+
+@media(max-width:1200px) {
+    .section-gallery-hidden {
+        display: none;
+    }
+}
+
+.text-gallery {
+    text-align: center;
+}
+
+@media(max-width:768px) {
+    .text-gallery {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+
+/*..........................................................Home Page*/
+
+.personal-image {
+    max-width: 100%;
+    max-height: 400px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.bg-container-personal {
+    background-color: grey;
+}
+
+.container-personal {
+    padding-top: 15px;
+    color: white;
+    max-height: 400px;
+}
+
+.bg-container-quotes {
+    background-color: grey;
+    color: white;
+}
+
+.text-personal {
+    text-align: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.container-homepage {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.left-column-homepage {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+
+.left-column-image {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    border-radius: 15px;
+}
+
+.right-column-image {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    float: right;
+    border-radius: 15px;
+}
+
+.section-header {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+@media(max-width:768px){
+    .section-header {
+margin-bottom:0px;
+}
+
+.selection-text {
+    text-align: justify;
+    padding: 0px;
+}
+
+@media(min-width:768px) {
+    .selection-text {
+        text-align: center;
+    }
+}
+
+.selection-text-body {
+    padding: 15px;
+    transform: translateY(30px);
+}
+
+@media(max-width:768px){
+    .selection-text-body {
+    padding: 5px;
+
+}
+
+
+@media(min-width:768px) {
+    .selection-text-body {
+    transform: translateY(30px);
+    }
+}
+
+@media(min-width:1200px) {
+    .selection-text-body {
+    transform: translateY(50px);
+    }
+}
+
+.container-quote {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 30px;
+}
+
+@media(max-width:992px){
+    .quote-2{
+        display: none;
+    }
+}
