@@ -1,6 +1,6 @@
 # Augello Photoword- First Mileston Project
 
-This Website was developed for Code Institute's User Centic Front End Development Project 1 and is an advertising website of myself as photographer to promote my photography services. It's a five pages responsive website, each area is build to make easier the navigation trough the contents and give all the info needed to the customers interested to have shootage services.
+This Website was developed for Code Institute's User Centic Front End Development Project 1 and is an advertising website of myself as photographer to promote my photography services. It's a five pages responsive website, each area is build to made easily the navigation trough the contents and give all the info needed to the customers interested to have photography services.
 
 ## UX
  
@@ -8,8 +8,8 @@ This Project is to demonstrate lessons learned in this section HTML and CSS User
 
 The website was build following the principle Mobile First and the UX is designed following the Bootstrap Grid system. 
 
-The idea was to build a website disegned for customers that are looking for photography shootage services and to give them a brief demonstration of my works as photographer. 
-I decided to divide the website in five different sections:
+The idea was to build a website designed for customers that are looking for photography services and to give them a brief demonstration of my works as photographer. 
+I decided to divide the website into five different sections:
 
 * Home Page
 * Photobook
@@ -25,8 +25,8 @@ The structure is as follow:
 
 * Navbar: a simple navigation bar with a burger bar inside of same to divide the various services category of my website and socials icons.
 * Image background
-* Jumbotron: inspirated from the Wishkey project of Code Institute's User Centic Front End Development Module, this Bootstrap based Jumbotron contain a sign up form, always inspired the Whiskey Project, that allows the users to sign up and receive a discount code.
-* Footer: A responsive footer in wich is implemented the use of Font Awesome and [Ianlunn`s](http://ianlunn.github.io/Hover/)
+* Jumbotron: inspired by the Whiskey project of Code Institute's User Centic Front End Development Module, this Bootstrap based Jumbotron contain a Bootstrap sign up form with validators value, always inspired by the Whiskey Project, that allows the users to sign up and receive a discount code.
+* Footer: A responsive footer in which is implemented the use of Font Awesome and [Ianlunn`s](http://ianlunn.github.io/Hover/)
  Hover.css.
 
 ## _Home Page_
@@ -36,50 +36,81 @@ This is the original section were my idea started. The basic idea was to give a 
 In this page we can find:
 
 * Presentation Section: Build following the responsive grid it contains a brief presentation of me as phoographer.
-* Customers Review: A bootstrap carousel inspirated form with customers review, this is important for the users to see what the people think about my services.
+* Customers Review: A bootstrap carousel inspired form with customers review, this is important for the users to see what the people think about my services.
 * Body Sections: A section with the example of the best services offered build with a responsive grid.
 
 
 ## _Photobook_
 
 This webpage was build to give to the user a better idea of the work I do as photographer.
-The structure is simply and easy for the user. There is a bootstrap grid system of 3x6, three column and 6 raws for each column. 
+The structure is simply and easy for the user. There is a bootstrap grid system of 3x6, three column and 6 raws for each column above the widht 1200px. 
 
-Following the principle of the Mobile First the page was build for small devices in girst so it is possible to see how below a widht of 768px the is only one 
+Following the principle of the Mobile First the page was build for small screen devices in first and it is possible to see how below a widht of 768px there is only one column full width gallery.
+Following the same principle between a width of 768px and 1200px there are 2 column and 6 rows, the third column is hidden to give to the user the best UX experience.
+
+For this section I had inspiration from the CSS Gallery on [freefrontend.com](https://freefrontend.com/css-gallery/), the name of the gallery is "Image gallery with zoom" made by wunnle.
+
+The css transitions and effects used are not displayed on small screens, this to give a better UX experience and because the image won't be larger than the full width that the image already have.
 
 
+## _Serviced and Prices_
 
+This webpage was build with the purpose to give to the customers all the info they need about all the sevices I provide and the relatives price.
+In this page there is the implementation of Bootstrap`s table to allow the customers find all the the info in an in an orderly manner.
 
+The page is full responsive and includes a inpage anchors for the special packages offered, this is to improve the users experience when they are using a smartphone to navigate through the website.
 
+Try it on a small screen resolution and see how tapping one of the special packages you will be able to go directly to the interested package.
 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+## _Delivery & Payment Info_
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+This web page was build with the purpose to give to the potential customers all the info needed about the delivery and the payment methods.
+Like the previous webpage this one implements Bootstrap`s table and it is easy to navigate.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+## _Contact Us_
 
-## Features
+This is the last webpage, I preferred to made a contact webpage to improve the user experience and made easily the navigation trought the website.
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+The section was build following the responsive mobile first idea and implements a responsive contact info and a Bootstrap form with validators value. 
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+Let's try and see how you can't proceed with the submission of the same if you don't fill it. 
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+In addition it's implemented a Bootstrap's select menu with multiple attributes that allow the customer to select easly a service and a printing size and allow me to know for what service the customer is contacting me for.
+
 
 ### Features Left to Implement
-- Another feature idea
+
+- Animated Gallery with the use of javascript
+- Thank you notice after the submission of the contact form
+- Thank you notice after the submission of the sign up form
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+For this project I used:
+
+- [HTML5]( https://en.wikipedia.org/wiki/HTML5)
+    - The project uses **HTML5** to structure the content in line with modern semantic html5.
+
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3)
+    - The project uses **CSS3** to style the html content.
+
+- [Bootstrap3](https://getbootstrap.com/docs/3.3/)
+    - The project uses **Bootstrap3** to Layout the html content on different screen sizes.
+
+- [FontAwesome](https://fontawesome.com/)
+    - The project uses **FontAwesome** to add icons for social media and contact forms.
+
+- [Hover.css](http://ianlunn.github.io/Hover/)
+    - The project uses **Hover.css** to add animations.
+
+- [GoogleFonts](https://fonts.google.com/)
+    - The project uses **GoogleFonts** to add the following fonts: Permanent Marker, Roboto, Exo, Indie Flower.
 
 - [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+    - The project uses **JQuery** to control scrolling and toggle features.
+
+
+
 
 
 ## Testing
