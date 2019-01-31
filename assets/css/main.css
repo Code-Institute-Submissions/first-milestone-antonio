@@ -728,6 +728,11 @@ button[type="submit"] {
     }
 }
 
+@media (width: 768px){
+.text-gallery {
+    padding: 0;
+}
+}
 
 /*..........................................................Home Page*/
 

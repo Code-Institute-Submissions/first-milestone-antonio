@@ -23,8 +23,8 @@ The basic structure of each page is the same, this to allow the user a simple na
 
 The structure is as follow:
 
-* Navbar: a simple navigation bar with a burger bar inside of same to divide the various services category of my website.
-* Image Logo
+* Navbar: a simple navigation bar with a burger bar inside of same to divide the various services category of my website and socials icons.
+* Image background
 * Jumbotron: inspirated from the Wishkey project of Code Institute's User Centic Front End Development Module, this Bootstrap based Jumbotron contain a sign up form, always inspired the Whiskey Project, that allows the users to sign up and receive a discount code.
 * Footer: A responsive footer in wich is implemented the use of Font Awesome and [Ianlunn`s](http://ianlunn.github.io/Hover/)
  Hover.css.
@@ -39,6 +39,13 @@ In this page we can find:
 * Customers Review: A bootstrap carousel inspirated form with customers review, this is important for the users to see what the people think about my services.
 * Body Sections: A section with the example of the best services offered build with a responsive grid.
 
+
+## _Photobook_
+
+This webpage was build to give to the user a better idea of the work I do as photographer.
+The structure is simply and easy for the user. There is a bootstrap grid system of 3x6, three column and 6 raws for each column. 
+
+Following the principle of the Mobile First the page was build for small devices in girst so it is possible to see how below a widht of 768px the is only one 
 
 
 
