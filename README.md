@@ -11,13 +11,38 @@ The website was build following the principle Mobile First and the UX is designe
 The idea was to build a website disegned for customers that are looking for photography shootage services and to give them a brief demonstration of my works as photographer. 
 I decided to divide the website in five different sections:
 
-Home Page
-Photobook
-Services and Prices
-Delivery & Payment Info
-Contact Us
+* Home Page
+* Photobook
+* Services and Prices
+* Delivery & Payment Info
+* Contact Us
+
+## Basic Structure
 
 The basic structure of each page is the same, this to allow the user a simple navigation.
+
+The structure is as follow:
+
+* Navbar: a simple navigation bar with a burger bar inside of same to divide the various services category of my website.
+* Image Logo
+* Jumbotron: inspirated from the Wishkey project of Code Institute's User Centic Front End Development Module, this Bootstrap based Jumbotron contain a sign up form, always inspired the Whiskey Project, that allows the users to sign up and receive a discount code.
+* Footer: A responsive footer in wich is implemented the use of Font Awesome and [Ianlunn`s](http://ianlunn.github.io/Hover/)
+ Hover.css.
+
+## _Home Page_
+
+This is the original section were my idea started. The basic idea was to give a brief introduction of myself and of my best works.
+
+In this page we can find:
+
+* Presentation Section: Build following the responsive grid it contains a brief presentation of me as phoographer.
+* Customers Review: A bootstrap carousel inspirated form with customers review, this is important for the users to see what the people think about my services.
+* Body Sections: A section with the example of the best services offered build with a responsive grid.
+
+
+
+
+
 
 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
