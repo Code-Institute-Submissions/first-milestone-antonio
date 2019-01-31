@@ -721,19 +721,13 @@ button[type="submit"] {
     text-align: center;
 }
 
-@media(max-width:768px) {
+@media(max-width:767px) {
     .text-gallery {
         padding-left: 50px;
         padding-right: 50px;
     }
 }
 
-@media (max-width: 767px){
-.text-gallery {
-    padding-left: 0;
-    padding-right: 0;
-}
-}
 
 /*..........................................................Home Page*/
 
