@@ -730,7 +730,8 @@ button[type="submit"] {
 
 @media (width: 768px){
 .text-gallery {
-    padding: 0;
+    padding-left: 0;
+    padding-right 0;
 }
 }
 
