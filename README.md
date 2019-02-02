@@ -1,6 +1,6 @@
 # Augello Photoword- First Mileston Project
 
-This Website was developed for Code Institute's User Centic Front End Development Project 1 and is an advertising website of myself as photographer to promote my photography services. It's a five pages responsive website, each area is build to made easily the navigation trough the contents and give all the info needed to the customers interested to have photography services.
+This Website was developed for Code Institute's User Centic Front End Development Project 1 and is an advertising website of myself as photographer to promote my photography services. It's a five pages responsive website, each area is build to made easily the navigation trough the contents and to give all the info needed to the customers interested to have photography services.
 
 ## UX
  
@@ -78,9 +78,9 @@ In addition I implemented a Bootstrap's select menu with multiple attributes tha
 
 ### Features Left to Implement
 
-- Animated Gallery with the use of javascript
+- Animated Gallery with the use of Javascript and JQuery
 - Thank you windows after the submission of the contact form
-- Thank you widows after the submission of the sign up form
+- Thank you windows after the submission of the sign up form
 
 ## Technologies Used
 
@@ -104,11 +104,15 @@ For this project I used:
 - [GoogleFonts](https://fonts.google.com/)
     - The project uses **GoogleFonts** to add the following fonts: Permanent Marker, Roboto, Exo, Indie Flower.
 
+- [Google Images](https://www.google.com/imghp?hl=en)
+    - I used **Google Images** to find the icons for my user`s review.
+
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to control scrolling and toggle features.
 
-## Features 
-
+- [ResizeImage](https://resizeimage.net/)
+    - For the project i used the free online tool **ResizeImage** to resize and compress the images to speed up the charging of the site.
+ 
 
 ## Testing
 
@@ -130,7 +134,6 @@ To test this project I used various browsers and devices.
 * Acer Laptop
 * Samsung S8
 * Iphone X
-
 
 During testing i used Chrome Developer tools to test the responsive design and features of the page.
 
@@ -155,36 +158,22 @@ During testing i used Chrome Developer tools to test the responsive design and f
     4. Click again to go back on the gallery.
     5. Now try to set the display on a resolution of 768px or less and click on one of the images and see how the transition is not displayed.
 
-Validation Testings
+### Validation Testings
+
 For HTML validation testing I used ["W3 Validator"](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgello94.github.io%2Ffirst-milestone-antonio%2F) which shows the html documents to be valid.
 
-For CSS validation testing I used ["W3 CSS Validator"](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgello94.github.io%2Ffirst-milestone-antonio%2F) which shows the stylesheet to be valid CSS3.
-
-Deployment
-This page has been deployed to Github Pages
-
+For CSS validation testing I used ["W3 CSS Validator"](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgello94.github.io%2Ffirst-milestone-antonio%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=it) which shows the stylesheet to be valid CSS3.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+This page has been deployed to ["Github Pages"](https://github.com/gello94).
 
 
 ## Credits
 
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-
 ### Media
-- The photos used in this site were obtained from ...
 
-### Acknowledgements
+- The icons used for the user review in the Home Page are taken from ["Google Images"](https://www.google.com/imghp?hl=en), found using the filter "re-use rights".
 
-- I received inspiration for this project from X
+- The photos used in this site are all mine, except for the images used as User Icon as mentioned above. 
+
