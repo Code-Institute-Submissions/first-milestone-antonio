@@ -85,10 +85,10 @@ p {
     color: white;
 }
 
-@media (max-width: 767px){
-.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
-    color: white;
-}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+        color: white;
+    }
 }
 
 .menu-cascade {
@@ -109,7 +109,7 @@ p {
     border: 3px;
 }
 
-.jumbotron h1 {
+.jumbotron h2 {
     font-family: "Permanent Marker", sans-serif;
     font-weight: 100;
     font-size: 46px;
@@ -120,7 +120,7 @@ p {
 }
 
 @media (max-width:768px) {
-    .jumbotron h1 {
+    .jumbotron h2 {
         font-family: "Permanent Marker", sans-serif;
         font-weight: 100;
         font-size: 36px;
@@ -318,6 +318,7 @@ h4 {
     margin-bottom: 20px;
 }
 
+
 /*................................Footer*/
 
 footer {
@@ -445,7 +446,7 @@ button[type="submit"] {
     margin-bottom: 20px;
     background-color: #e84610;
     color: #fafafa;
-
+    border-color: #e84610;
 }
 
 .form-control {
@@ -736,11 +737,11 @@ button[type="submit"] {
     height: auto;
 }
 
-@media(max-width:768px){
-    .personal-image{
-    max-height: 500px;
-    object-fit: contain;
-}
+@media(max-width:768px) {
+    .personal-image {
+        max-height: 500px;
+        object-fit: contain;
+    }
 }
 
 .bg-container-personal {

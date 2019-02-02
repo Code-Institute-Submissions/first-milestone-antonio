@@ -17,7 +17,7 @@ I decided to divide the website into five different sections:
 * Delivery & Payment Info
 * Contact Us
 
-## Basic Structure
+## Feature
 
 The basic structure of each page is the same, this to allow the user a simple navigation.
 
@@ -29,7 +29,7 @@ The structure is as follow:
 * Footer: A responsive footer in which is implemented the use of Font Awesome and [Ianlunn`s](http://ianlunn.github.io/Hover/)
  Hover.css.
 
-## _Home Page_
+#### _Home Page_
 
 This is the original section were my idea started. The basic idea was to give a brief introduction of myself and of my best works.
 
@@ -40,7 +40,7 @@ In this page we can find:
 * Body Sections: A section with the example of the best services offered build with a responsive grid.
 
 
-## _Photobook_
+#### _Photobook_
 
 This webpage was build to give to the user a better idea of the work I do as photographer.
 The structure is simply and easy for the user. There is a bootstrap grid system of 3x6, three column and 6 raws for each column above the widht 1200px. 
@@ -53,7 +53,7 @@ For this section I had inspiration from the CSS Gallery on [freefrontend.com](ht
 The css transitions and effects used are not displayed on small screens, this to give a better UX experience and because the image won't be larger than the full width that the image already have.
 
 
-## _Serviced and Prices_
+#### _Serviced and Prices_
 
 This webpage was build with the purpose to give to the customers all the info they need about all the sevices I provide and the relatives price.
 In this page there is the implementation of Bootstrap`s table to allow the customers find all the the info in an in an orderly manner.
@@ -62,27 +62,25 @@ The page is full responsive and includes a inpage anchors for the special packag
 
 Try it on a small screen resolution and see how tapping one of the special packages you will be able to go directly to the interested package.
 
-## _Delivery & Payment Info_
+#### _Delivery & Payment Info_
 
 This web page was build with the purpose to give to the potential customers all the info needed about the delivery and the payment methods.
 Like the previous webpage this one implements Bootstrap`s table and it is easy to navigate.
 
-## _Contact Us_
+#### _Contact Us_
 
 This is the last webpage, I preferred to made a contact webpage to improve the user experience and made easily the navigation trought the website.
 
-The section was build following the responsive mobile first idea and implements a responsive contact info and a Bootstrap form with validators value. 
+The section was build following the responsive mobile first idea and implements a full responsive contact info and a Bootstrap contact form with validators value. 
 
-Let's try and see how you can't proceed with the submission of the same if you don't fill it. 
-
-In addition it's implemented a Bootstrap's select menu with multiple attributes that allow the customer to select easly a service and a printing size and allow me to know for what service the customer is contacting me for.
+In addition I implemented a Bootstrap's select menu with multiple attributes that allow the customer to select easly a service and a printing size and allow me to know for what service the customer is contacting me for.
 
 
 ### Features Left to Implement
 
 - Animated Gallery with the use of javascript
-- Thank you notice after the submission of the contact form
-- Thank you notice after the submission of the sign up form
+- Thank you windows after the submission of the contact form
+- Thank you widows after the submission of the sign up form
 
 ## Technologies Used
 
@@ -109,29 +107,62 @@ For this project I used:
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to control scrolling and toggle features.
 
-
-
+## Features 
 
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+To test this project I used various browsers and devices.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+#### Mobile Browsers
+* Chrome
+* Safari
+* Internet Samsung 
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+#### Desktop Browsers
+* Chrome
+* Firefox
+* Edge
 
-1. Contact form:
-    1. Go to the "Contact Us" page
+#### Devices
+* Hp Laptop
+* Asus Laptop
+* Acer Laptop
+* Samsung S8
+* Iphone X
+
+
+During testing i used Chrome Developer tools to test the responsive design and features of the page.
+
+### Forms and Gallery Testing
+
+1. Sign Up form:
+    1. Go to one of the page and click on the Sign Up button
     2. Try to submit the empty form and verify that an error message about the required fields appears
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+    4. Try to submit the form with all inputs valid.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+2. Contact form:
+    1. Go to the ["Contact Us"](https://gello94.github.io/first-milestone-antonio/contact.html) page
+    2. Try to submit the empty form and verify that an error message about the required fields appears
+    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    4. Try to submit the form with all inputs valid.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+3. Animated Gallery 
+    1. Go to the ["Photobook"](https://gello94.github.io/first-milestone-antonio/gallery.html)
+    2. Try to move your indicator on the images and see the css transitions working.
+    3. Try to click on one of the images and see how the image will be displayed full screen in the same page with a transition effect.
+    4. Click again to go back on the gallery.
+    5. Now try to set the display on a resolution of 768px or less and click on one of the images and see how the transition is not displayed.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Validation Testing
+For HTML validation testing I used ["W3 Validator"](https://gello94.github.io/first-milestone-antonio/gallery.html) which shows the html document to be valid.
+
+For CSS validation testing I used W3 CSS Validator which shows the stylesheet to be valid CSS3.
+
+Deployment
+This page has been deployed to Github Pages
+
 
 ## Deployment
 
@@ -143,6 +174,7 @@ In particular, you should provide all details of the differences between the dep
 - Separate git branch?
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
+
 
 
 ## Credits
