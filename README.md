@@ -155,10 +155,10 @@ During testing i used Chrome Developer tools to test the responsive design and f
     4. Click again to go back on the gallery.
     5. Now try to set the display on a resolution of 768px or less and click on one of the images and see how the transition is not displayed.
 
-Validation Testing
-For HTML validation testing I used ["W3 Validator"](https://gello94.github.io/first-milestone-antonio/gallery.html) which shows the html document to be valid.
+Validation Testings
+For HTML validation testing I used ["W3 Validator"](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgello94.github.io%2Ffirst-milestone-antonio%2F) which shows the html documents to be valid.
 
-For CSS validation testing I used W3 CSS Validator which shows the stylesheet to be valid CSS3.
+For CSS validation testing I used ["W3 CSS Validator"](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgello94.github.io%2Ffirst-milestone-antonio%2F) which shows the stylesheet to be valid CSS3.
 
 Deployment
 This page has been deployed to Github Pages
