@@ -9,6 +9,7 @@ This Project is to demonstrate lessons learned in this section HTML and CSS User
 The website was build following the principle Mobile First and the UX is designed following the Bootstrap Grid system. 
 
 The idea was to build a website designed for customers that are looking for photography services and to give them a brief demonstration of my works as photographer. 
+
 I decided to divide the website into five different sections:
 
 * Home Page
@@ -23,11 +24,12 @@ The basic structure of each page is the same, this to allow the user a simple na
 
 The structure is as follow:
 
-* Navbar: a simple navigation bar with a burger bar inside of same to divide the various services category of my website and socials icons.
-* Image background
-* Jumbotron: inspired by the Whiskey project of Code Institute's User Centic Front End Development Module, this Bootstrap based Jumbotron contain a Bootstrap sign up form with validators value, always inspired by the Whiskey Project, that allows the users to sign up and receive a discount code.
-* Footer: A responsive footer in which is implemented the use of Font Awesome and [Ianlunn`s](http://ianlunn.github.io/Hover/)
+* **Navbar**: a simple navigation bar with a burger bar inside of same to divide the various services category of my website and socials icons.
+* **Background Image** 
+* **Jumbotron**: inspired by the Whiskey project of Code Institute's User Centic Front End Development Module, this Bootstrap based Jumbotron contain a Bootstrap sign up form with validators value, always inspired by the Whiskey Project, that allows the users to sign up and receive a discount code.
+* **Footer**: A responsive footer in which is implemented the use of Font Awesome and [Ianlunn`s](http://ianlunn.github.io/Hover/)
  Hover.css.
+
 
 #### _Home Page_
 
@@ -36,8 +38,10 @@ This is the original section were my idea started. The basic idea was to give a 
 In this page we can find:
 
 * Presentation Section: Build following the responsive grid it contains a brief presentation of me as phoographer.
-* Customers Review: A bootstrap carousel inspired form with customers review, this is important for the users to see what the people think about my services.
+* Customers Review: A Bootstrap Carousel inspired form with customers review, this is important for the users to see what the people think about my services.
 * Body Sections: A section with the example of the best services offered build with a responsive grid.
+
+Link to the [Home Page](https://gello94.github.io/first-milestone-antonio/).
 
 
 #### _Photobook_
@@ -52,8 +56,10 @@ For this section I had inspiration from the CSS Gallery on [freefrontend.com](ht
 
 The css transitions and effects used are not displayed on small screens, this to give a better UX experience and because the image won't be larger than the full width that the image already have.
 
+Link to the [Photobook](https://gello94.github.io/first-milestone-antonio/gallery.html) page.
 
-#### _Serviced and Prices_
+
+#### _Services and Prices_
 
 This webpage was build with the purpose to give to the customers all the info they need about all the sevices I provide and the relatives price.
 In this page there is the implementation of Bootstrap`s table to allow the customers find all the the info in an in an orderly manner.
@@ -62,10 +68,16 @@ The page is full responsive and includes a inpage anchors for the special packag
 
 Try it on a small screen resolution and see how tapping one of the special packages you will be able to go directly to the interested package.
 
+Link to the [Services and Prices](https://gello94.github.io/first-milestone-antonio/services.html) page.
+
+
 #### _Delivery & Payment Info_
 
 This web page was build with the purpose to give to the potential customers all the info needed about the delivery and the payment methods.
 Like the previous webpage this one implements Bootstrap`s table and it is easy to navigate.
+
+Link to the [Delivery & Payment Info](https://gello94.github.io/first-milestone-antonio/delivery.html) page.
+
 
 #### _Contact Us_
 
@@ -74,6 +86,8 @@ This is the last webpage, I preferred to made a contact webpage to improve the u
 The section was build following the responsive mobile first idea and implements a full responsive contact info and a Bootstrap contact form with validators value. 
 
 In addition I implemented a Bootstrap's select menu with multiple attributes that allow the customer to select easly a service and a printing size and allow me to know for what service the customer is contacting me for.
+
+Link to the [Contact Us](https://gello94.github.io/first-milestone-antonio/contact.html) page.
 
 
 ### Features Left to Implement
@@ -170,6 +184,7 @@ This page has been deployed to ["Github Pages"](https://github.com/gello94).
 
 
 ## Credits
+For this project I had ispiration by the Whiskey project of Code Institute's User Centic Front End Development Module.
 
 ### Media
 
