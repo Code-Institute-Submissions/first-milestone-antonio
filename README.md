@@ -30,6 +30,8 @@ The structure is as follow:
 * **Footer**: A responsive footer in which is implemented the use of Font Awesome and [Ianlunn`s](http://ianlunn.github.io/Hover/)
  Hover.css.
 
+In addiction to the web pages, except for the Home Page, was added a script to allow the auto scroll down of the page, this to improve the quality of the navigation and to prevent users from thinking that the page has not changed, due to the same structure.
+This Javascript code was found on [Stackoverflow](https://stackoverflow.com) community.
 
 #### _Home Page_
 
@@ -54,7 +56,7 @@ Following the same principle between a width of 768px and 1200px there are 2 col
 
 For this section I had inspiration from the CSS Gallery on [freefrontend.com](https://freefrontend.com/css-gallery/), the name of the gallery is "Image gallery with zoom" made by wunnle.
 
-The css transitions and effects used are not displayed on small screens, this to give a better UX experience and because the image won't be larger than the full width that the image already have.
+The Gallery feature are not displayed on small screens, this to give a better UX experience and because the image won't be larger than the full width that the image already have.
 
 Link to the [Photobook](https://gello94.github.io/first-milestone-antonio/gallery.html) page.
 
@@ -126,6 +128,12 @@ For this project I used:
 
 - [ResizeImage](https://resizeimage.net/)
     - For the project i used the free online tool **ResizeImage** to resize and compress the images to speed up the charging of the site.
+
+- [Freefrontend](https://freefrontend.com)
+    - For the project i used **Freefrontend** resource to find an animated Gallery.
+
+- [Stackoverflow](https://stackoverflow.com)
+    - For the project i used **stackoverflow** community to find a scroll down script for my project.
  
 
 ## Testing
@@ -184,6 +192,7 @@ This page has been deployed to ["Github Pages"](https://github.com/gello94).
 
 
 ## Credits
+
 For this project I had ispiration by the Whiskey project of Code Institute's User Centic Front End Development Module.
 
 ### Media
