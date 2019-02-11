@@ -30,7 +30,7 @@ The structure is as follow:
 * **Footer**: A responsive footer in which is implemented the use of Font Awesome and [Ianlunn`s](http://ianlunn.github.io/Hover/)
  Hover.css.
 
-In addiction to the web pages, except for the Home Page, was added a script to allow the auto scroll down of the page, this to improve the quality of the navigation and to prevent users from thinking that the page has not changed, due to the same structure.
+In addiction, to the web pages, except for the Home Page, was added a script to allow the auto scroll-down of the page, this to improve the quality of the navigation and to prevent users from thinking that the page has not changed, due to the same structure.
 This Javascript code was found on [Stackoverflow](https://stackoverflow.com) community.
 
 #### _Home Page_
