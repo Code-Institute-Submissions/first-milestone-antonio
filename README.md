@@ -1,6 +1,6 @@
 # User Centric Front-End Development Milestone Project
 
-# [Augello Photoworld](https://gello94.github.io/first-milestone-antonio)
+# [Augello PhotoWorld](https://gello94.github.io/first-milestone-antonio)
 
 
 This Website was developed for Code Institute's User Centic Front End Development Project 1 and is an advertising website of myself as photographer to promote my photography services. It's a five pages responsive website, each area is build to made easily the navigation trough the contents and to give all the info needed to the customers interested to have photography services.
