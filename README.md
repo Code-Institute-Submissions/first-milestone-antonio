@@ -1,6 +1,10 @@
-# Augello Photoword- First Mileston Project
+# User Centric Front-End Development Milestone Project
+
+# [Augello Photoworld](https://gello94.github.io/first-milestone-antonio)
+
 
 This Website was developed for Code Institute's User Centic Front End Development Project 1 and is an advertising website of myself as photographer to promote my photography services. It's a five pages responsive website, each area is build to made easily the navigation trough the contents and to give all the info needed to the customers interested to have photography services.
+
 
 ## UX
  
@@ -18,13 +22,36 @@ I decided to divide the website into five different sections:
 * Delivery & Payment Info
 * Contact Us
 
+
+### Scenarios
+
+##### User looking for a Photobook:
+
+A user that may need a photography for a competition or for personal pleasure or to share on the socials. This user will look for the indoor and ourdoor portrait jobs and info.
+They will be interested in book the service asking for a special printing size and asking for some request about.
+
+##### Real Estate Agency:
+
+As Real Estate Agency I need to attract the customer's attention on the properties I am advertising and to do this the best way is to show detailed and good quality pictures of same.
+A Real Estate Agency will visit the site to see my works, to read other clients review, to look the prices and all the services that I can offer. It can be interested to contact me for further info.
+
+##### Family on special events:
+
+A family that would like to have photos for their family book during a special event. The client will go to the site to look the works and all the services offered with relative prices having a look on the review of the other clients. 
+They will look for special offers to have more than one single shot during more hours of the day and to have more picture printed. They will be also interested to know about the payment methods and the delivery options.
+
+##### Couple in Holiday:
+
+A couple in holiday looking for a professional photography service. They will be interested to look the works and other clients review. They will be interested also in look about the delivery options and costs.
+
+
 ## Feature
 
 The basic structure of each page is the same, this to allow the user a simple navigation.
 
 The structure is as follow:
 
-* **Navbar**: a simple navigation bar with a burger bar inside of same to divide the various services category of my website and socials icons.
+* **Navbar**: a simple responsive navigation bar with a dopdown menu inside of same to divide the various services category of my website and with socials icons. The navigation bar will be showed as "Hamburger Menu" on width < 768px.
 * **Background Image** 
 * **Jumbotron**: inspired by the Whiskey project of Code Institute's User Centic Front End Development Module, this Bootstrap based Jumbotron contain a Bootstrap sign up form with validators value, always inspired by the Whiskey Project, that allows the users to sign up and receive a discount code.
 * **Footer**: A responsive footer in which is implemented the use of Font Awesome and [Ianlunn`s](http://ianlunn.github.io/Hover/)
@@ -92,11 +119,14 @@ In addition I implemented a Bootstrap's select menu with multiple attributes tha
 Link to the [Contact Us](https://gello94.github.io/first-milestone-antonio/contact.html) page.
 
 
+
 ### Features Left to Implement
 
-- Animated Gallery with the use of Javascript and JQuery
 - Thank you windows after the submission of the contact form
 - Thank you windows after the submission of the sign up form
+- A Purchase Form to allow the user to buy a service directly by the website
+- An ordered Gallery / Photography Portfolio divided in different section to show the skills for the services offered 
+
 
 ## Technologies Used
 
@@ -108,8 +138,8 @@ For this project I used:
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3)
     - The project uses **CSS3** to style the html content.
 
-- [Bootstrap3](https://getbootstrap.com/docs/3.3/)
-    - The project uses **Bootstrap3** to Layout the html content on different screen sizes.
+- [Bootstrap 3.3.7](https://getbootstrap.com/docs/3.3/)
+    - The project uses **Bootstrap 3.3.7** to Layout the html content on different screen sizes.
 
 - [FontAwesome](https://fontawesome.com/)
     - The project uses **FontAwesome** to add icons for social media and contact forms.
@@ -157,7 +187,14 @@ To test this project I used various browsers and devices.
 * Samsung S8
 * Iphone X
 
-During testing i used Chrome Developer tools to test the responsive design and features of the page.
+During testing i used Chrome Developer tools to test the responsive design on different size and the features of the page on different width.
+
+The site was developed following the Bootstrap Grid System and the same was tested to ensure that all the elements are responsive on the following resolutions on each page:
+
+- Width ≥1200px 
+- Width between 1200px and 768px
+- Width ≤ 768px 
+
 
 ### Forms and Gallery Testing
 
@@ -180,6 +217,7 @@ During testing i used Chrome Developer tools to test the responsive design and f
     4. Click again to go back on the gallery.
     5. Now try to set the display on a resolution of 768px or less and click on one of the images and see how the transition is not displayed.
 
+
 ### Validation Testings
 
 For HTML validation testing I used ["W3 Validator"](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgello94.github.io%2Ffirst-milestone-antonio%2F) which shows the html documents to be valid.
@@ -188,8 +226,30 @@ For CSS validation testing I used ["W3 CSS Validator"](http://jigsaw.w3.org/css-
 
 ## Deployment
 
-This page has been deployed to ["Github Pages"](https://github.com/gello94).
+This page has been deployed to ["Github Pages"](https://gello94.github.io/first-milestone-antonio/).
 
+GitHub is used to host the code and publish the pages.
+
+A new repository was created in GitHub called: first-milestone-antonio
+
+After a final Git Add and Git commit
+
+`$git add` .
+
+`$git commit -m "Final commit"`
+
+The pages were pushed to the new GitHub repository
+
+`$ git remote add origin https://github.com/gello94/first-milestone-antonio`
+
+`$ git push -u origin master`
+
+`$Username`
+
+`$Password`
+
+Under the Settings – GitHub Pages of the new repository, the master branch of the code is published to the url:
+https://gello94.github.io/first-milestone-antonio/
 
 ## Credits
 
@@ -198,6 +258,5 @@ For this project I had ispiration by the Whiskey project of Code Institute's Use
 ### Media
 
 - The icons used for the user review in the Home Page are taken from ["Google Images"](https://www.google.com/imghp?hl=en), found using the filter "re-use rights".
-
 - The photos used in this site are all mine, except for the images used as User Icon as mentioned above. 
 

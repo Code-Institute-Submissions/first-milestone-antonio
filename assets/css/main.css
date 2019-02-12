@@ -705,7 +705,7 @@ button[type="submit"] {
 
 @media(max-width:992px) {
     .section-gallery {
-        padding: 0px;
+            padding-right: 15px;
     }
 }
 
