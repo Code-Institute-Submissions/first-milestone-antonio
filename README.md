@@ -122,6 +122,7 @@ Link to the [Contact Us](https://gello94.github.io/first-milestone-antonio/conta
 
 ### Features Left to Implement
 
+- Implement Social Networks Link on the Social Icons
 - Thank you windows after the submission of the contact form
 - Thank you windows after the submission of the sign up form
 - A Purchase Form to allow the user to buy a service directly by the website
