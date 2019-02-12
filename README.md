@@ -164,7 +164,7 @@ For this project I used:
     - For the project i used **Freefrontend** resource to find an animated Gallery.
 
 - [Stackoverflow](https://stackoverflow.com)
-    - For the project i used **stackoverflow** community to find a scroll down script for my project.
+    - For the project i used **stackoverflow** community to find a scroll down script for my project and other CSS and HTML iusses.
  
 
 ## Testing
@@ -196,6 +196,10 @@ The site was developed following the Bootstrap Grid System and the same was test
 - Width between 1200px and 768px
 - Width ≤ 768px 
 
+### During development
+
+During the developement of the Home Page I had an iusse with the section "Portrait". The code was not following my idea to show on small screen the image first and then the article.
+To fix this problem the solution was change the column order, I had to push of 4 column the image using the code `col-lg-push-4` and to pull of 8 column the article using the code `col-lg-pull-8`.
 
 ### Forms and Gallery Testing
 
