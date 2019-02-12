@@ -234,13 +234,11 @@ A new repository was created in GitHub called: first-milestone-antonio
 
 After a final Git Add and Git commit
 
-`$git add` .
+`$git add .`
 
 `$git commit -m "Final commit"`
 
-The pages were pushed to the new GitHub repository
-
-`$ git remote add origin https://github.com/gello94/first-milestone-antonio`
+The pages were pushed to the GitHub repository
 
 `$ git push -u origin master`
 
